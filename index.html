@@ -476,6 +476,7 @@
   <div class="govuk-header__container govuk-width-container">
     <div class="govuk-header__logo">
       <a href="https://govassure.uk" class="ga-header-brand">Gov<span>Assure</span></a>
+      <p style="color: rgba(255,255,255,0.7); font-size: 12px; margin: 4px 0 0; font-weight: 400; letter-spacing: 0.3px;">Open Source Community Project</p>
     </div>
     <div class="govuk-header__content">
       <a href="/" class="govuk-header__link govuk-header__service-name">API Security Controls Matrix</a>
@@ -1437,7 +1438,7 @@ function renderByClassification() {
     <div class="ga-summary-divider"></div>
     <div class="ga-summary-stat">
       <span class="ga-summary-stat__value">${showInherited ? totalControls : newAtThisTier}</span>
-      <span class="ga-summary-stat__label">${showInherited ? 'Total controls' : 'New at this tier'}</span>
+      <span class="ga-summary-stat__label">${showInherited ? 'Baseline controls' : 'New at this tier'}</span>
     </div>
     ${showInherited && inheritedCount > 0 ? `
       <div class="ga-summary-divider"></div>
