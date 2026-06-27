@@ -44,7 +44,6 @@
 
     /* ── Custom tab navigation ────────────────────────────── */
     .ga-nav {
-      border-bottom: 2px solid #0b0c0c;
       margin-bottom: 30px;
     }
     .ga-nav__list {
@@ -53,32 +52,32 @@
       padding: 0;
       display: flex;
       flex-wrap: wrap;
-      gap: 0;
+      gap: 6px;
+      padding-bottom: 2px;
+      border-bottom: 2px solid #0b0c0c;
     }
     .ga-nav__item { margin: 0; }
     .ga-nav__link {
       display: block;
-      padding: 10px 16px;
-      font-size: 16px;
+      padding: 8px 14px;
+      font-size: 15px;
       font-weight: 400;
       color: #1d70b8;
       text-decoration: none;
       background: #f3f2f1;
       border: 1px solid #b1b4b6;
-      border-bottom: none;
-      margin-right: 4px;
-      margin-bottom: -2px;
       white-space: nowrap;
       cursor: pointer;
       font-family: inherit;
+      margin-bottom: 0;
     }
     .ga-nav__link:hover { background: #fff; text-decoration: underline; }
     .ga-nav__link:focus { outline: 3px solid #ffdd00; outline-offset: 0; background: #ffdd00; color: #0b0c0c; text-decoration: none; }
     .ga-nav__item--active .ga-nav__link {
-      background: #fff;
-      color: #0b0c0c;
+      background: #1d70b8;
+      color: #fff;
       font-weight: 700;
-      border-bottom: 2px solid #fff;
+      border-color: #1d70b8;
     }
 
     /* ── Section heading strip ────────────────────────────── */
